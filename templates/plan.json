@@ -1,0 +1,47 @@
+{
+  "planning_mode": "VARIATION",
+  "variation_id": 1,
+  "parent_plan": null,
+  "created_at": "",
+  "variation_strategy": {
+    "hook_changed": false,
+    "timeline_changed": false,
+    "copy_changed": false
+  },
+  "performance": {
+    "views": null,
+    "retention_2s": null,
+    "retention_6s": null,
+    "completion_rate": null,
+    "product_ctr": null,
+    "orders": null
+  },
+  "source_gate": "CLEAN_SOURCE",
+  "crop_mode": "safe_crop",
+  "fontfile": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+  "limitation": "",
+  "versions": {
+    "B_result_first": {
+      "timeline": [
+        {"src": "VIDEO_1.mp4", "in": 0.0, "out": 1.0},
+        {"src": "VIDEO_1.mp4", "in": 1.0, "out": 2.0},
+        {"src": "VIDEO_1.mp4", "in": 2.0, "out": 4.0},
+        {"src": "VIDEO_1.mp4", "in": 4.0, "out": 6.0},
+        {"src": "VIDEO_1.mp4", "in": 6.0, "out": 8.0},
+        {"src": "VIDEO_1.mp4", "in": 8.0, "out": 10.0}
+      ],
+      "copy": []
+    },
+    "C_product_logic": {
+      "timeline": [
+        {"src": "VIDEO_1.mp4", "in": 0.0, "out": 1.0},
+        {"src": "VIDEO_1.mp4", "in": 1.0, "out": 2.0},
+        {"src": "VIDEO_1.mp4", "in": 2.0, "out": 4.0},
+        {"src": "VIDEO_1.mp4", "in": 4.0, "out": 6.0},
+        {"src": "VIDEO_1.mp4", "in": 6.0, "out": 8.0},
+        {"src": "VIDEO_1.mp4", "in": 8.0, "out": 10.0}
+      ],
+      "copy": []
+    }
+  }
+}
