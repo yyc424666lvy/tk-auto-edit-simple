@@ -1,0 +1,29 @@
+{
+  "schema": "tk-product-video.baseline-lock.v1",
+  "status": "FROZEN",
+  "architecture": {
+    "planner": "Codex",
+    "editor": "Montaj",
+    "renderer": "portable FFmpeg 8.1.2"
+  },
+  "montaj": {
+    "path": "/workspace/scratch/85824882e7b9/montaj",
+    "git_commit": "4dfe02ab789868ee599574d945d14519ba1b1fc8",
+    "worktree_status": "clean"
+  },
+  "portable_ffmpeg": {
+    "ffmpeg_version": "8.1.2",
+    "ffprobe_version": "8.1.2",
+    "ffmpeg_sha256": "bea0dfb96f7223b1be497cf11ccda9ddd9a39103b948b342bb6db1c60a56be12",
+    "ffprobe_sha256": "f0a9c3c87d45fe323ae893fe9820150a46f5af9fc5f75066712097f160befac5"
+  },
+  "workflow": {
+    "script": "run_workflow.py",
+    "script_sha256": "56e9f49e96eabeb9cf80d2754df036a4e611368153dfc9975b8bb9eddc920852",
+    "readme_sha256": "584bda183b44b782119f607d779ea4c7b2e7cc026de9986b1ada4698d0082bce",
+    "outputs": ["B_result_first.mp4", "C_product_logic.mp4", "report.json"],
+    "external_llm_or_api": false,
+    "node_or_puppeteer": false,
+    "bgm": false
+  }
+}
