@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+output/
+tk-product-video-output/
+analysis_frames/
+analysis_cache.json
+*.mp4
+*.mov
+*.mkv
+*.avi
+plans/*_draft.json
